@@ -3,7 +3,8 @@
 
 ## **Overview**  
 SignWave is a real-time sign language detection system designed to interpret hand gestures using a live webcam feed. Leveraging MediaPipe for hand tracking and TensorFlow for model training, this project provides a robust and customizable solution for sign language recognition.  
-
+## Demo Video
+[SignWave](https://youtu.be/zgZCIyAArHQ)
 ## **Requirements**  
 Ensure the following dependencies are installed:  
 * `mediapipe`  
@@ -98,9 +99,12 @@ You can add more classes by adding new data or modify/delete existing data in th
 
 ### **Real-Time Detection**
 This project uses MediaPipe's hand-tracking pipeline to extract key points for hand gestures in real-time. The extracted key points are then classified by the trained model to predict the gesture.  
+![Screenshot 2025-01-23 015902](https://github.com/user-attachments/assets/f9ba442e-f4b4-4333-a93c-d6dd56e1dd55)
 
 ### **Customizing for New Signs**  
 The project is designed to be flexible for adding new sign classes. You can update the dataset, retrain the model, and deploy it without changing the core application logic.  
+![Screenshot 2025-01-23 015831](https://github.com/user-attachments/assets/b47f5243-7516-4e3f-a605-136befd986f8)
+![Screenshot 2025-01-23 015936](https://github.com/user-attachments/assets/a3cfc7c0-94ea-46c6-b7ed-b406b2cc87ff)
 
 ### **Performance**  
 The current model achieves an average accuracy of **95%** in medium lighting conditions.  
